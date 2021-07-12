@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+
+}
+P
+{
+    font-weight: 200;
+    color:#f7fdfd;
+    font-size: x-small;
+
+}
+
+.banner
+{
+position: relative;
+width: 87%;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items:center;
+background: url("dark.jpg");
+background-size: cover;
+opacity:initial;
+}
+.banner .content
+{
+    max-width: 600px;
+    text-align: center;
+}
+.banner .content h2
+{    font-weight: 200;
+    font-size: 5em;
+    color: #39f3e4;
+}
+.banner .content h2:hover{
+ font-size: 5.3em;
+ color:white;
+}
+.banner .content p
+{
+font-size: 1.5em;
+color: #39f3e4;
+}
+.btn
+{
+    font-size: 1em;
+    color:white;
+    background: #39f3e4;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    Letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.btn:hover
+{
+letter-spacing: 6px;
+}
+header
+{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 40px 100px;
+z-index: 10000;
+display: flex;
+justify-content: space-between;
+align-items: center;
+transition: 0.5s;
+font-weight: 200;
+}
+header .sticky
+{
+ background: #fff;
+ padding: 10px 100px;
+ box-shadow: 0 5px 20px white;
+}
+header .logo
+{
+    color: #4fee97;
+    font-weight: 500;
+    font-size: 2em;
+    text-decoration: none;
+ 
+}
+header .sticky .logo
+{
+   color: #39f3e4; 
+}
+header .logo span
+{
+    color: #39f3e4;
+}
+header .navigation
+{
+position: relative;
+display: flex;
+}
+header .navigation li
+{
+    list-style: none;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+header .navigation li a
+{
+    text-decoration: none;
+    color:white;
+    font-weight: 200;
+}
+header.sticky .navigation li a
+{
+ color:white;    
+}
+header .navigation li a:hover
+{
+    color: #39f3e4;
+}
+
+#portfolio{
+    background-color: #408f7e;
+}
+.titleText
+{
+    color: rgb(245, 244, 244);
+    font-size: 2em;
+    font-weight: 300;
+
+}
+
+.titleText span
+{
+color: white;
+font-weight: 700;
+font-size: 1.5em;
+ 
+}
+
+
+
+.title
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.team .content 
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    color: white;
+
+}
+
+.team .content .box
+{
+    width: 340px;
+    margin: 20px;
+    border: 09px solid #fff;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+}
+.team .content .box .imgBx
+{
+    position: relative;
+    width: 100%;
+    height: 300px;
+
+}
+.team .content .box .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.team .content .box .imgBx img:hover{
+    width:150%;
+    height:150%;
+}
+
+.team.content .box .text
+{
+    padding: 15px 0 5px;
+}
+.team .content .box .text h3 h4
+{
+    font-weight: 400;
+    color: white;
+}
+#about{
+    width: 100%;
+    height: 100vh;
+    box-sizing:border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 5% 0px 5%;
+    background-color: #408f7e;
+}
+#about h4{
+    color: white;
+    font-family: Arial;
+    font-size: small;
+    font-weight: 200;
+}
+
+.container {
+    width: 100%;
+    background-color: #408f7e;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .html {width: 90%; background-color: #04AA6D;}
+  .css {width: 80%; background-color: #2196F3;}
+  .js {width: 65%; background-color: #f44336;}
+  .php {width: 60%; background-color: #808080;}
+  
+
+.about-text{
+    font-family: calibri;
+    width:50%;  
+
+}
+.about-text h1{
+    font-size: 2rem;
+    color:white;
+}
+.about-text h3{
+  color:white;
+}
+.about-text h4, p{
+    font-size: 1.2rem;
+    color:white;
+}
+section
+{
+    padding: 100px;
+}
+
+
+#Testimonials{
+    background-color: #408f7e;
+    text-align: center;
+    color: white;
+}
+.witness{
+    align-items: center;
+}
+
+#contact
+{
+    background-color: #408f7e;
+    text-align: center;
+}
+.frm-container{
+    padding: 50px 50px;
+    cursor: pointer;
+    width: 94%;
+    margin-bottom:10px;
+    height: fit-content;
+    border: 3px solid #f1f1f1;
+ 
+}
+    
+#userMessage-info{
+    width: 100%;
+    padding: 10px;
+}
+img{
+    border-radius: 50%;
+    border-color:#111;
+    box-sizing: 15px;
+    
+}
+.banner .content h2
+{
+    font-size: 4em;
+    color: #39f3e4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+}
+
+
+@media (max-width: 991px){
+
+}
+
+ 
